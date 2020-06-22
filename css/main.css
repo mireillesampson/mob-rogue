@@ -45,7 +45,7 @@ h4 {
 
 p {
 	font-size: 0.875em;
-	line-height: 21px;
+	line-height: 1.3125em;
     padding: 0 30px;
 }
 
@@ -120,7 +120,7 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 1em;
-	line-height: 25px;
+	line-height: 1.5625em;
 }
 
 .section-one,
@@ -159,12 +159,12 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 1em;
-	line-height: 21px;
+	line-height: 1.3125em;
 }
 
 .address {
 	font-size: 1em;
-	line-height: 24px;
+	line-height: 1.5em;
 }
 
 /*The widths are in a percentage!*/
