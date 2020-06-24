@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
 	flex-flow: row wrap;
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
 }
 
 h1,
@@ -43,27 +43,35 @@ h4 {
 	font-size: 0.75em;
 }
 
-p {
+/*p {
 	font-size: 0.875em;
 	line-height: 1.3125em;
-    padding: 0 30px;
-}
+  padding: 0 30px;
+}*/
 
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
 	/*margin: 0 auto;*/
 	/* height: 110px; */
+	width: 100%;
+	text-align: center;
 	display: flex;
   justify-content: center;
   align-items: center;
-	outline: 1px solid red;
+	flex-flow: row wrap;
+	/*outline: 1px solid red;*/
 }
 
 header h1 {
-	/*margin: 0;*/
-	padding: 38px 0;
+	width: 100%;
+	margin: 0;
+	padding: 38px 20px 20px 20px;
+	border-bottom: 3px solid #77a466;
+	font-size: 1.875em;
+	/*outline: 1px solid purple;*/
 }
+
 
 header h1 span {
 	color: #77a466;
@@ -71,18 +79,21 @@ header h1 span {
 
 header nav {
 	padding: 46px 0;
+	width: 100%;
+	/*outline: 1px solid orange;*/
 }
 
 header nav ul {
-	/*margin: 0;*/
+	margin: 0;
 	padding: 0;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+	padding: 10px;
+	/*display: inline;*/
+	display: block;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -96,22 +107,26 @@ header nav ul li a{
 	display: flex;
   justify-content: center;
   align-items: center;
-	outline: 1px solid red;
+	flex-flow: row wrap;
+	/*outline: 1px solid red;*/
 }
 
-.main-image {
-	/*do i remove this height?*/
-	/*height: auto;*/
-}
+/*.main-image {
+	do i remove this height?
+	height: auto;
+}*/
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	/*do i remove this height?*/
-	/*height: auto;*/
-}
+/*.main-title {
+	do i remove this height?
+	height: auto;
+	outline: 1px solid yellow;
+*/
+
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
@@ -126,26 +141,27 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	/*width: 33%;*/
 	/*do i remove this height?*/
 	/*height: auto;*/
 	border-top: 1px solid #eee;
-	outline: 1px solid blue;
+	width: 100%;
+	/*outline: 1px solid blue;*/
 }
 
-.section-one h4 {
+/*.section-one h4 {
 	padding: 10px 0;
-}
+}*/
 
-.section-two {
+/*.section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
-}
+}*/
 
-.section-two h4,
+/*.section-two h4,
 .section-three h4 {
 	padding: 10px 30px;
-}
+}*/
 
 .menu {
 	list-style: none;
@@ -176,8 +192,12 @@ footer {
 	display: flex;
   justify-content: center;
   align-items: center;
-	outline: 1px solid red;
+	width: 100%;
+	flex-flow: row wrap;
+	/*outline: 1px solid red;*/
 }
+
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
